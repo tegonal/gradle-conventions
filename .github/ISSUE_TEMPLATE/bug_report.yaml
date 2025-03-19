@@ -10,10 +10,15 @@ body:
     id: version
     attributes:
       label: Affected Version
-      description: What version of PROJECT_NAME are you using?
+      description: What version of gradle-conventions are you using?
       placeholder: "v0.1.0"
     validations:
       required: true
+  - type: input
+    id: gradle-version
+    attributes:
+      label: Gradle Version
+      description: What gradle version are you using?
   - type: textarea
     id: reproduce
     attributes:

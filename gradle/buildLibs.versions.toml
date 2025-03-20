@@ -1,0 +1,12 @@
+[versions]
+kotlin = "2.1.10"
+task-tree = "4.0.1"
+vlsi = "1.90"
+
+[libraries]
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+taskTree = { module = "com.dorongold.plugins:task-tree", version.ref = "task-tree" }
+vlsi-gradle = { module = "com.github.vlsi.gradle-extensions:com.github.vlsi.gradle-extensions.gradle.plugin", version.ref = "vlsi" }
+
+[plugins]
+build-parameters = { id = "org.gradlex.build-parameters", version = "1.4.4" }

@@ -27,7 +27,7 @@ version: [README of v0.1.0](https://github.com/tegonal/gradle-conventions/tree/m
 
 ---
 
-**Table of Content**
+**Table of Contents**
 
 - [Installation](#installation)
 - [Documentation](#documentation)
